@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
 } 
  
 module.exports = {
-    SESSION_ID: "Xnodes~imJlFJrQ#me_HO7YNBg6qChD5PW8SxItq3tt88Wrv4lDsSMuG1Bw", // add your Session Id  Ex : Xnodes~e2R2VQgS#KFvTRMN77ZGFOYSKbA4mpNjwt7KBwiRFwRoG1-vi4"
+    SESSION_ID: "Xnodes~r24DiSrS#MqfT67QI-D00qSGoDM9tD5URFDycvdrQDOuZsOrV-Yg", // add your Session Id  Ex : Xnodes~e2R2VQgS#KFvTRMN77ZGFOYSKbA4mpNjwt7KBwiRFwRoG1-vi4"
     AUTO_STATUS_SEEN: true,  // set to true or false for auto-seeing status
     AUTO_STATUS_REPLY: true,  // set to true if you want auto-reply on status
     AUTO_STATUS_REACT: true,  // set to true if you want auto-react on status
@@ -26,9 +26,9 @@ module.exports = {
     ANTI_BAD: false,  // set to true for anti-bad words filter
     MODE: "public",  // set the bot mode to public, private, inbox, or group
     ANTI_LINK: false,  // set to true for anti-link protection in groups
-    AUTO_VOICE: false,  // set to true for sending automatic voices
+    AUTO_VOICE: true,  // set to true for sending automatic voices
     AUTO_STICKER: false,  // set to true for sending automatic stickers
-    AUTO_REPLY: false,  // set to true for automatic text replies
+    AUTO_REPLY: true,  // set to true for automatic text replies
     ALWAYS_ONLINE: true,  // set to true for always being online
     PUBLIC_MODE: true,  // set to false for private mode
     AUTO_TYPING: false,  // set to true for automatic show typing
